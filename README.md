@@ -1,0 +1,2 @@
+# dogDetector
+Stub readme
