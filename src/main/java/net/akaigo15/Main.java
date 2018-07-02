@@ -1,9 +1,6 @@
 package net.akaigo15;
 
-/**
- * Hello world!
- *
- */
+
 public class Main {
 
     private enum State {
