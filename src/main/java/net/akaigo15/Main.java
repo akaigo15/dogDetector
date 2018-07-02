@@ -19,6 +19,7 @@ public class Main {
     private static Wait wait;
     private static SendText sendText;
 
+
     public static void main( String[] args ) {
 
 
@@ -48,6 +49,7 @@ public class Main {
                         } else {
                             state = State.INIT;
                         }
+
                         break;
                     }
 
