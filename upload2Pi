@@ -1,2 +1,9 @@
 #!/bin/bash
-scp target/dogDetector-1.0-SNAPSHOT.jar pi@192.168.0.29:/home/pi/projects/dogDetector
+mkdir target/upload
+
+cp target/dogDetector-1.0-SNAPSHOT.jar target/upload
+cp src/main/resources/email.properties target/upload
+
+scp -r target/upload pi@192.168.0.29:/home/pi/projects/dogDetector
+
+rm -rf target/upload
