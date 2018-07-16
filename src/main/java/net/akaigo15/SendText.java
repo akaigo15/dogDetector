@@ -41,6 +41,8 @@ public class SendText implements StateExecutor {
       }
       recipients.add(s);
     }
+
+    Main.LOG("Total number of recipients: " + recipients.size());
   }
 
   public boolean execute() {
